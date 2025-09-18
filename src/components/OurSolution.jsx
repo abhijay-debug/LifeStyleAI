@@ -55,7 +55,7 @@ export default function OurSolution() {
   ];
 
   return (
-    <section id="our-solution" className="py-16 bg-[#090A13] text-[#e5e7eb]">
+    <section id="work" className="py-16 bg-[#090A13] text-[#e5e7eb]">
       <div className="max-w-7xl mx-auto px-6 text-center">
         {/* Section Title */}
         <motion.h2

@@ -10,7 +10,7 @@ export default function DemoChat() {
   ];
 
   return (
-    <section id="demo-chat" className="lg:py-20">
+    <section id="demo" className="lg:py-20">
       <div
         className="max-w-3xl mx-auto px-4 py-6 rounded-2xl"
         style={{

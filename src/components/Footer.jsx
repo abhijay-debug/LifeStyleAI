@@ -28,7 +28,7 @@ const Footer = () => {
           <h4 className="text-[#e5e7eb] font-semibold mb-2">Company</h4>
           <nav className="text-sm">
             <a className="block mb-1 hover:text-white transition-colors" href="#features">Features</a>
-            <a className="block mb-1 hover:text-white transition-colors" href="#workflow">How It Works</a>
+            <a className="block mb-1 hover:text-white transition-colors" href="#work">How It Works</a>
             <a className="block mb-1 hover:text-white transition-colors" href="#industries">Industries</a>
             <a className="block mb-1 hover:text-white transition-colors" href="#testimonials">Testimonials</a>
             <a className="block mb-1 hover:text-white transition-colors" href="#cta">Pricing</a>

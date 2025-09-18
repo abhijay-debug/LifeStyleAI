@@ -57,7 +57,7 @@ export default function Hero() {
             visible: { transition: { staggerChildren: 0.15 } },
           }}
         >
-          {["#demo-chat", "#cta"].map((href, idx) => (
+          {["#demo", "#cta"].map((href, idx) => (
             <motion.a
               key={href}
               href={href}
