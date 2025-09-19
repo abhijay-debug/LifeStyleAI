@@ -7,7 +7,7 @@ export default function Hero() {
   return (
     <section
       id="hero"
-      className="relative flex py-20 items-center justify-center min-h-[90vh] text-center overflow-hidden"
+      className="relative flex py-24 items-center justify-center lg:min-h-[90vh] text-center overflow-hidden"
       style={{ backgroundImage: "url('/images/bgg.jpg')", backgroundPosition: 'center', backgroundSize: 'cover' }}
     >
       <div className="absolute inset-0 bg-gradient-to-b from-[rgba(12,14,26,0.8)] to-[rgba(12, 14, 26, 0.13)]"></div>
@@ -49,26 +49,33 @@ export default function Hero() {
         </motion.p>
 
         <motion.div
-          className="flex flex-wrap justify-center gap-4"
-          initial="hidden"
-          animate="visible"
-          variants={{
-            hidden: {},
-            visible: { transition: { staggerChildren: 0.15 } },
-          }}
-        >
-          {["#demo", "#cta"].map((href, idx) => (
-            <motion.a
-              key={href}
-              href={href}
-              whileHover={{ y: -3, scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
-              className={`inline-flex items-center gap-2 rounded-[12px] px-6 py-3 font-semibold ${idx === 0 ? "bg-gradient-to-r from-[#855afc] to-[#0ea5e9] text-white" : "border border-[#855afc] text-[#855afc] bg-transparent"}`}
-            >
-              {idx === 0 ? "See it in action" : "Start free trial"} <span>→</span>
-            </motion.a>
-          ))}
-        </motion.div>
+  initial={{ opacity: 0, y: 20 }}
+  whileInView={{ opacity: 1, y: 0 }}
+  viewport={{ once: true }}
+  transition={{ duration: 0.8, ease: "easeOut", delay: 1.3 }}
+  className="flex flex-wrap justify-center gap-4"
+>
+  {/* First Button */}
+  <motion.a
+    href="#demo"
+    whileHover={{ y: -3, scale: 1.05 }}
+    whileTap={{ scale: 0.95 }}
+    className="inline-flex items-center gap-2 rounded-[12px] px-6 py-3 font-semibold bg-gradient-to-r from-[#855afc] to-[#0ea5e9] text-white"
+  >
+    See it in action <span>→</span>
+  </motion.a>
+
+  {/* Second Button */}
+  <motion.a
+    href="https://forms.gle/WXd75AEmrViwKVPY6"
+    whileHover={{ y: -3, scale: 1.05 }}
+    whileTap={{ scale: 0.95 }}
+    className="inline-flex items-center gap-2 rounded-[12px] px-6 py-3 font-semibold border border-[#855afc] text-[#855afc] bg-transparent"
+  >
+    Start free trial <span>→</span>
+  </motion.a>
+</motion.div>
+
       </div>
     </section>
   );

@@ -4,11 +4,11 @@ import { motion } from "framer-motion";
 const testimonials = [
   {
     text: "I doubled my revenue without hiring additional staff. LifestyleAI manages client conversations better than any VA I’ve tried.",
-    author: "Sara K., Business Coach"
+    author: "Sara , Instagram Influencer (1.5M followers)"
   },
   {
     text: "The AI twin makes every patient feel personally cared for, even outside of appointments. Our retention jumped 30%.",
-    author: "Dr. Amit L., Wellness Clinic Owner"
+    author: "Dr. Amit , Senior Doctor in Mumbai"
   },
   {
     text: "Members love the digital coach! It keeps them motivated between sessions and holds them accountable—it’s like having 10 trainers for the price of one.",
@@ -18,7 +18,7 @@ const testimonials = [
 
 const Testimonials = () => {
   return (
-    <section id="testimonials" className="lg:py-24 bg-[#090a13]">
+    <section id="testimonials" className="lg:py-14 bg-[#090a13]">
       <div className="max-w-6xl mx-auto px-4">
         <h2 className="text-5xl font-semibold text-center mb-12 text-white">
           Our Users Say It Best

@@ -6,7 +6,7 @@ export default function ScalingChallenge() {
  
 
   return (
-    <section className="bg-[#0c0e1a] lg:py-20 relative overflow-hidden">
+    <section className="bg-[#0c0e1a] lg:py-10 relative overflow-hidden">
       <div className="container mx-auto px-4 max-w-5xl text-center">
         {/* Animated Heading */}
         <motion.h2

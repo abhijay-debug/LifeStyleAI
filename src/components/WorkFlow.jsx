@@ -46,7 +46,7 @@ const WorkFlow = () => {
   ];
 
   return (
-    <section id="workflow" className="py-24 bg-[#090a13]">
+    <section id="workflow" className="py-10 bg-[#090a13]">
       <div className="max-w-6xl mx-auto px-4">
         <h2 className="text-5xl font-semibold text-center mb-12 text-white">
           Turn Your Expertise into a Digital Twin

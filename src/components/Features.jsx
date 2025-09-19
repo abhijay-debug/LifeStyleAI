@@ -6,15 +6,15 @@ export default function Features() {
   const images = [
     "/images/one.jpg",
     "/images/three.jpg",
-    "/images/four.jpg",
+    
     "/images/five.jpg",
     "/images/deep.jpg",
     "/images/coach.jpg",
   ];
 
   return (
-    <section id="features" className="lg:py-24 py-10 bg-[#090a13]">
-      <div className="max-w-6xl mx-auto px-4">
+    <section id="features" className="lg:py-10 py-10 bg-[#090a13]">
+      <div className="max-full mx-auto px-4">
         <motion.h2
           className="text-5xl font-bold text-center mb-20 text-white"
           initial={{ opacity: 0, y: 50 }}
@@ -25,11 +25,11 @@ export default function Features() {
           Why LifestyleAI?
         </motion.h2>
 
-        <div className="columns-1 sm:columns-2 lg:columns-3 gap-6 space-y-6">
+        <div className="lg:flex w-full  gap-6 flex-wrap justify-center">
           {images.map((src, i) => (
             <motion.div
               key={i}
-              className="relative group rounded-xl overflow-hidden cursor-pointer perspective"
+              className="relative group lg:w-1/4 rounded-xl overflow-hidden cursor-pointer perspective"
               initial={{ opacity: 0, y: 50 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}

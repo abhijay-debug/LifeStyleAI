@@ -30,7 +30,7 @@ const Header = () => {
              How It Works
             </a>
           <a
-            href="#cta"
+            href="https://forms.gle/WXd75AEmrViwKVPY6"
             className="ml-2 inline-flex items-center gap-2 rounded-[12px] px-4 py-2 font-semibold bg-gradient-to-r from-[#855afc] to-[#0ea5e9] text-white shadow-md hover:-translate-y-1 transition-transform"
           >
             Try for Free <span>→</span>
@@ -87,7 +87,7 @@ const Header = () => {
                How it Works
               </a>
              <a
-            href="#cta"
+            href="https://forms.gle/WXd75AEmrViwKVPY6"
             className="ml-2 inline-flex items-center gap-2 rounded-[12px] px-4 py-2 font-semibold bg-gradient-to-r from-[#855afc] to-[#0ea5e9] text-white shadow-md hover:-translate-y-1 transition-transform"
           >
             Try for Free <span>→</span>

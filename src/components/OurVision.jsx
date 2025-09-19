@@ -11,7 +11,7 @@ export default function OurVision() {
   ];
 
   return (
-    <section id="our-vision" className="lg:py-20 py-10 bg-[#090a13] text-[#e5e7eb]">
+    <section id="our-vision" className="lg:py-10 py-10 bg-[#090a13] text-[#e5e7eb]">
       <div className="max-w-6xl mx-auto px-6 text-center">
         {/* Section Title */}
         <motion.h2

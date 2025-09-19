@@ -11,9 +11,8 @@ export default function OurSolution() {
       desc: (
         <>
           Your AI twin manages the full customer lifecycle — awareness, lead nurturing,
-          onboarding, engagement, progress reviews, retention, and upsells — all
-          orchestrated via <span className="font-semibold text-indigo-600">rocky.ai</span>{" "}
-          so every touchpoint feels authentic and on-brand.
+onboarding, engagement, progress reviews, retention, and upsells — all
+orchestrated seamlessly so every touchpoint feels authentic and on-brand.
         </>
       ),
     },
@@ -22,10 +21,9 @@ export default function OurSolution() {
       title: "Always Available, Always Consistent",
       desc: (
         <>
-          Hosted on <span className="font-semibold text-indigo-600">rocky.ai</span>, your
-          digital twin is available 24/7. It answers late-night questions, checks in on
-          daily progress, and ensures every interaction is consistent, personal, and
-          true to your brand voice.
+        Your digital twin is available 24/7. It answers late-night questions, checks in on
+daily progress, and ensures every interaction is consistent, personal, and
+true to your brand voice.
         </>
       ),
     },
@@ -34,10 +32,9 @@ export default function OurSolution() {
       title: "Scalable Coaching Without Limits",
       desc: (
         <>
-          With LifestyleAI and <span className="font-semibold text-indigo-600">rocky.ai</span>,
-          you can support thousands of clients simultaneously while preserving the human
-          touch. Multiply your reach and impact without sacrificing personalization or
-          quality.
+         With LifestyleAI, you can support thousands of clients simultaneously while preserving 
+the human touch. Multiply your reach and impact without sacrificing personalization or 
+quality.
         </>
       ),
     },
@@ -46,16 +43,16 @@ export default function OurSolution() {
       title: "Seamless Client Experience",
       desc: (
         <>
-          No complex tech needed — <span className="font-semibold text-indigo-600">rocky.ai</span>{" "}
-          delivers your AI services through an easy-to-use mobile app and WhatsApp
-          integration, letting clients connect naturally on platforms they already use.
+        No complex tech needed — your AI services run seamlessly through a simple mobile app 
+and WhatsApp integration, so clients can connect with you on the platforms they 
+already use every day.
         </>
       ),
     },
   ];
 
   return (
-    <section id="work" className="py-16 bg-[#090A13] text-[#e5e7eb]">
+    <section id="work" className="py-10 bg-[#090A13] text-[#e5e7eb]">
       <div className="max-w-7xl mx-auto px-6 text-center">
         {/* Section Title */}
         <motion.h2
@@ -66,7 +63,7 @@ export default function OurSolution() {
           transition={{ duration: 0.8 }}
         >
           The LifestyleAI Solution{" "}
-          <span className="text-indigo-600">(rocky.ai)</span>
+        
         </motion.h2>
 
         <motion.p
@@ -76,11 +73,10 @@ export default function OurSolution() {
           viewport={{ once: true }}
           transition={{ duration: 0.8, delay: 0.2 }}
         >
-          LifestyleAI creates a digital twin of you — an AI-powered version trained on your
-          expertise, coaching style, and communication approach. This twin operates through{" "}
-          <span className="font-semibold text-indigo-600">rocky.ai</span>’s conversational
-          interface, mirroring your persona to deliver coaching, motivation, and progress
-          tracking in your unique voice.
+         LifestyleAI creates a digital twin of you — an AI-powered version trained on your
+expertise, coaching style, and communication approach. This twin operates through
+a conversational interface, mirroring your persona to deliver coaching, motivation,
+and progress tracking in your unique voice.
         </motion.p>
 
         {/* Grid Layout with scroll animation */}

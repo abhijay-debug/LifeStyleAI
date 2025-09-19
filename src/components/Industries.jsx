@@ -30,7 +30,7 @@ const Industries = () => {
   ];
 
   return (
-    <section id="industries" className="lg:py-24 py-10 bg-[#090a13]">
+    <section id="industries" className="lg:py-10 py-10 bg-[#090a13]">
       <div className="max-w-6xl mx-auto px-4">
         <h2 className="text-5xl font-semibold text-center mb-12 text-white">
           Tailored Solutions for Every Domain
