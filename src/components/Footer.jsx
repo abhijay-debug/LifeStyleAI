@@ -1,6 +1,7 @@
 import React from "react";
 import { Twitter, Linkedin, Github } from "lucide-react";
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -49,8 +50,12 @@ const Footer = () => {
             <a href="#" className="hover:text-white transition-colors"><Github className="w-5 h-5" /></a>
           </div>
         <div className="flex gap-4 mt-6 ">
-            <a href="https://www.lifestyleai.co/index.php/terms-conditions/" className="hover:text-white transition-colors">Terms & Conditions</a>
-            <a href="https://www.lifestyleai.co/index.php/privacy-policy-for-lifestyleai/" className="hover:text-white transition-colors">Privacy Policy</a>
+            <Link to="/terms">
+            <a  className="hover:text-white transition-colors">Terms & Conditions</a>
+            </Link>
+            <Link to="/privacy-policy">
+            <a  className="hover:text-white transition-colors">Privacy Policy</a>
+            </Link>
           </div>
         </div>
       </div>
