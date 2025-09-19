@@ -43,7 +43,7 @@ const Industries = () => {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: i * 0.1 }}
-              className="bg-[#0c0e1a] lg:w-1/4 h-[30vh] rounded-xl mb-4 p-6 border border-white/5 hover:scale-105 hover:shadow-xl transition-transform duration-500"
+              className="bg-[#0c0e1a] lg:w-1/4 flex flex-col items-center text-center justify-center h-[30vh] rounded-xl mb-4 p-6 border border-white/5 hover:scale-105 hover:shadow-xl transition-transform duration-500"
             >
               <h3 className="text-lg text-[#855afc] mb-2">{ind.title}</h3>
               <p className="text-sm text-[#8c8fa6]">{ind.desc}</p>

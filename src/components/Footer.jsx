@@ -44,18 +44,18 @@ const Footer = () => {
           <p className="text-sm">Phone: +91 7805010044</p>
           <p className="text-sm">Address: Andheri East Mumba</p>
 
-          <div className="flex gap-4 mt-4 justify-center md:justify-start">
-            <a href="#" className="hover:text-white transition-colors"><Twitter className="w-5 h-5" /></a>
-            <a href="#" className="hover:text-white transition-colors"><Linkedin className="w-5 h-5" /></a>
-            <a href="#" className="hover:text-white transition-colors"><Github className="w-5 h-5" /></a>
-          </div>
-        <div className="flex gap-4 mt-6 ">
+        <div className="flex flex-col gap- mt-4 ">
             <Link to="/terms">
             <a  className="hover:text-white transition-colors">Terms & Conditions</a>
             </Link>
             <Link to="/privacy-policy">
             <a  className="hover:text-white transition-colors">Privacy Policy</a>
             </Link>
+          </div>
+          <div className="flex gap-4 mt-6 justify-center md:justify-start">
+            <a href="#" className="hover:text-white transition-colors"><Twitter className="w-5 h-5" /></a>
+            <a href="#" className="hover:text-white transition-colors"><Linkedin className="w-5 h-5" /></a>
+            <a href="#" className="hover:text-white transition-colors"><Github className="w-5 h-5" /></a>
           </div>
         </div>
       </div>
