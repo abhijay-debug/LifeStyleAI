@@ -1,5 +1,5 @@
 import React from "react";
-import { Twitter, Linkedin, Github } from "lucide-react";
+import { Twitter, Linkedin, Github, Instagram, PhoneCall, Phone } from "lucide-react";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 
@@ -42,7 +42,7 @@ const Footer = () => {
           <h4 className="text-[#e5e7eb] font-semibold mb-2">Contact</h4>
           <p className="text-sm">Email: abhijay@lifestyleai.co</p>
           <p className="text-sm">Phone: +91 7805010044</p>
-          <p className="text-sm">Address: Andheri East Mumba</p>
+          <p className="text-sm">Address: Andheri East Mumbai</p>
 
         <div className="flex flex-col gap- mt-4 ">
             <Link to="/terms">
@@ -53,9 +53,12 @@ const Footer = () => {
             </Link>
           </div>
           <div className="flex gap-4 mt-6 justify-center md:justify-start">
-            <a href="#" className="hover:text-white transition-colors"><Twitter className="w-5 h-5" /></a>
-            <a href="#" className="hover:text-white transition-colors"><Linkedin className="w-5 h-5" /></a>
-            <a href="#" className="hover:text-white transition-colors"><Github className="w-5 h-5" /></a>
+            <a href="https://www.instagram.com/lifestyleai_?utm_source=qr&igsh=MXF3Z25lZXFuOHo1Mg%3D%3D" className="hover:text-white transition-colors"><Instagram className="w-5 h-5"/></a>
+            {/* <a href="#" className="hover:text-white transition-colors"><Linkedin className="w-5 h-5" /></a> */}
+            <div className="border-white/50 border-2 rounded-full p-1 ">
+                                
+            <a href="#" className="hover:text-white transition-colors"><Phone className="w-3 h-3"/></a>
+            </div>
           </div>
         </div>
       </div>
